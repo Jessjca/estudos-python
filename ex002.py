@@ -1,0 +1,5 @@
+datanascimentodia = input ('Digite o dia em que você nasceu: ')
+datanascimentomes = input ('Digite o mês em que você nasceu: ')
+datanascimentoano = input ('Digite o ano em que você nasceu: ')
+datanascimentofinal = 2024 - int(datanascimentoano)
+print ('Você tem:',datanascimentofinal,'anos')
