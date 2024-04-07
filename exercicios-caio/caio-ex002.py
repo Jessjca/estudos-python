@@ -1,2 +1,2 @@
 nome = input ('Digite o seu nome: ')
-print ('Prazer em te conhecer, {}.'.format(nome))
+print ('É um prazer em te conhecer, {}.'.format(nome))
