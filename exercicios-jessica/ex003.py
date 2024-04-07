@@ -1,2 +1,10 @@
-nome = input('qual seu nomerrrrrr')
-print(nome)
+n1=int(input('Digite um número: '))
+n2=int(input('Digite mais um número: '))
+n3=input('Digite algo: ')
+s=n1+n2
+print('A soma entre {} e {} é igual a: {}'.format(n1,n2,s))
+print('o primeiro número é do tipo:', type(n1))
+print(n3.isnumeric())
+print(n3.isalpha())
+print(n3.isdecimal())
+print(n3.isupper())
