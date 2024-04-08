@@ -1,0 +1,6 @@
+n1 = input('Digite algo: ')
+print('Você enviou um carcactere do tipo: ', type(n1))
+print('É número?',n1.isnumeric())
+print('É alfabeto?',n1.isalpha())
+print('É decimal?',n1.isdecimal())
+print('Está em capslock?',n1.isupper())
