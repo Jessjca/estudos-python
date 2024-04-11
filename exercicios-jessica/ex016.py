@@ -1,4 +1,4 @@
-import math
+from math import trunc
 num = float(input('Digite um número: '))
-inteiro = math.trunc(num)
-print(inteiro)
+inteiro = trunc(num)
+print('O valor digitado foi {:.2f} e sua porção inteira é {}'.format(num, inteiro))
