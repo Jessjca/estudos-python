@@ -1,12 +1,11 @@
-def separar_digitos(numero):
-    numero_str = str(numero)
-    for digito in numero_str:
-        print(digito)
-        
-numero = int(input('Digite um numero: '))
+num = int(input('Informe um número: '))
+u = num // 1 % 10
+d = num // 10 % 10
+c = num // 100 % 10
+m = num // 1000 % 10
+print('Analisando o número {}'.format(num))
+print('Unidade: {}'.format(u))
+print('Dezena: {}'.format(d))
+print('Centena: {}'.format(c))
+print('Milhar: {}'.format(m))
 
-if 0 <= numero <= 9999:
-    print(separar_digitos(numero))
-    
-else:
-    print('Numero invalido')
