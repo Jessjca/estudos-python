@@ -1,6 +1,7 @@
-nome = input('Digite seu nome: ')
+nome = input('Digite seu nome: ').strip()
+print('Seu nome tem Silva, {}?'.format(nome))
 
-if nome.find('Silva') != -1:
-    print('A pessoa tem Silva no nome')
+if 'silva' in nome.lower():
+    print('Sim! Você tem Silva no nome')
 else:
-    print('A pessoa não tem Silva no nome')
+    print('Não! Você não tem Silva no nome')
